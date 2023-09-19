@@ -19,7 +19,18 @@ We used 5 servo motors and 1 stepper motor for the six joints.
 ![motors](https://github.com/Upeksha-Dilhara/Manual-Robot-Arm/assets/128304167/0a6f9660-51f2-477b-8905-7bf659530700)
 
 
-### Micro controller 
-Atmega328p was programmed for controlling the motors.
 
 ### Power supply
+
+We found that when all the motors are working, the motors are driven about 5A current, because all the motors are at stall toque expect stepper motor. Therefore 10A power supply was designed by one of group member Nimesh. Output voltage of power supply is 12V.
+
+### Controlling Circuit 
+
+Atmega328p was used as microcontroller. There six potential meters to control each motor separately. All the servo motors were controlled by PWM signals as usual. 
+
+12V Output of the power supply is given to 5V buck convertor which powered microcontroller and some servo motors. 
+
+We used ESP32 cam module which can be connected to any device through the Wi-Fi at end effector. The purpose of using a cam module was user can be controlled the arm by observing output of cam module. Because user can see what the end effector orientation and position is. 
+
+##
+
