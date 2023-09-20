@@ -24,6 +24,8 @@ We used 5 servo motors and 1 stepper motor for the six joints.
 
 We found that when all the motors are working, the motors are driven about 5A current, because all the motors are at stall toque expect stepper motor. Therefore 10A power supply was designed by one of group member Nimesh. Output voltage of power supply is 12V.
 
+![WhatsApp Image 2023-09-19 at 19 33 21](https://github.com/Upeksha-Dilhara/Manual-Robot-Arm/assets/128304167/36821746-2e12-4ab3-a453-844913631e4c)
+
 ### Controlling Circuit 
 
 Atmega328p was used as microcontroller. There six potential meters to control each motor separately. All the servo motors were controlled by PWM signals as usual. 
