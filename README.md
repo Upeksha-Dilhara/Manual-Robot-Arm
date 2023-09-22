@@ -6,7 +6,7 @@ This robot arm was developed as group project with my colleagues who are Hiruna,
 - End effector is gripper which can pick and place an object.
 - ESP32 cam module is used at end effecter to find the object 
 - Arm can be controlled from any where else by using the feedback of the cam module which gives feedback to user’s device through the Wi-Fi.
--  There is controller panel with six controllers 
+-  There is controller panel with six control knobs.
 
 ## Components and Modules Used
 ### Motors 
