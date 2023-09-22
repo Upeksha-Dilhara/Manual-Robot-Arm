@@ -1,4 +1,4 @@
-# Manual-Robot-Arm
+# Manual-Robot-Manipulator
 This robot arm was developed as group project with my colleagues who are Hiruna, Nimesh, Ramitha and myself. This is first robot arm I have contributed in my dream passion. We made the prototype of our design which is controlled by user manually.   
 
 ## Specification of the arm
